@@ -35,6 +35,7 @@ Instructions for use:
 Notes:
 
 In the SoftMotion example, only the following GCodes are supported:
+
 G0 - Rapid Positioning
 
 G1 - Linear Interpolation
