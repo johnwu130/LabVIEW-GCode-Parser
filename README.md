@@ -1,6 +1,4 @@
 # LabVIEW-GCode-Parser
-A SubVI that parses GCode commands.
-
 This SubVI resolves GCodes commands into an array of clusters.  The command array can then be used in other loops to issue commands to the motion controller.  
 
 Some GCode background:
