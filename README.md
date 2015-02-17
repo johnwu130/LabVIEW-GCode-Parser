@@ -2,6 +2,7 @@
 This SubVI resolves GCodes commands into an array of clusters.  The command array can then be used in other loops to issue commands to the motion controller.  
 
 Some GCode background:
+
 This is the standard format for most GCode commands:
 
   G1 Z-0.2432 F127.0
