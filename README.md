@@ -6,7 +6,7 @@ This SubVI resolves GCodes commands into an array of clusters.  The command arra
 Some GCode background:
 This is the standard format for most GCode commands:
 
-  G1 Z-0.2432 F127.0
+  G1 Z-0.2432 F127.0 
   G1 F127.0
   G1 X23.4002 Y26.2105 Z-0.1604
   G1 X23.4153 Y25.2337 Z-0.1307
