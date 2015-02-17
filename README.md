@@ -19,9 +19,26 @@ This is the standard format for most GCode commands:
 There should be spaces between the parameters and the initial GCode.
 Also, this is inherently modal. For instance F127.0 will stay with the last 3 commands.
 Not all Gcode will follow this format, but please report any bugs to make this code more robust.
+For more on GCode, visit here: http://en.wikipedia.org/wiki/G-code.
 
 Features:
 
 1. Robust parsing ability to deal lack of spaces or formatting characters.
 2. Fast! Can parse 100000+ commands in less than a second.
 
+Instructions for use:
+
+1. Open the LV Project "GCode Parser - SoftMotion Example.lvproj"
+2. Run "GCode Parser - SoftMotion Example.vi"
+3. Select a sample GCode from the dialog window.  Watch run.
+
+Notes:
+
+In the SoftMotion example, only the following GCodes are supported:
+G0 - Rapid Positioning
+G1 - Linear Interpolation
+G92 - Reset Position
+
+G2, G3 Arc moves are not supported in the example right now, but it wouldn't be hard to add.
+This example is intended for someone to modify and combine with the motion driver of their choice.
+For ex: NI SoftMotion, FlexMotion, motion VIs from other vendors, etc.
