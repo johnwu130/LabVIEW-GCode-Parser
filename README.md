@@ -21,6 +21,10 @@ Also, this is inherently modal. For instance F127.0 will stay with the last 3 co
 Not all Gcode will follow this format, but please report any bugs to make this code more robust.
 For more on GCode, visit here: http://en.wikipedia.org/wiki/G-code.
 
+Software Requirements:
+LabVIEW 2013
+NI SoftMotion Module 2013
+
 Features:
 
 1. Robust parsing ability to deal lack of spaces or formatting characters.
@@ -48,3 +52,6 @@ This example is intended for someone to modify and combine with the motion drive
 For ex: NI SoftMotion, FlexMotion, motion VIs from other vendors, etc.
 
 BTW, this example can also run 3D Printer GCode files!  Just remember to tweak the "Velocity Scale" control on the front panel, as the feed speeds for most 3D Printer files (the "F" parameter) is mostly in step/s, you need to slow that down to get a more  realistic speed in mm/s (velocity scale around 1/60 or so.)
+
+
+I've tested this code on LabVIEW 2014, the blended motion is a little smoother than 2013.
