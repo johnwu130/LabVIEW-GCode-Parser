@@ -46,3 +46,5 @@ G92 - Reset Position
 G2, G3 Arc moves are not supported in the example right now, but it wouldn't be hard to add.
 This example is intended for someone to modify and combine with the motion driver of their choice.
 For ex: NI SoftMotion, FlexMotion, motion VIs from other vendors, etc.
+
+BTW, this example can also run 3D Printer GCode files!  Just remember to tweak the "Velocity Scale" control on the front panel, as the feed speeds for most 3D Printer files (the "F" parameter) is mostly in step/s, you need to slow that down to get a more  realistic speed in mm/s (velocity scale around 1/60 or so.)
