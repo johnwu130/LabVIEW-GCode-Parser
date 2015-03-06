@@ -75,6 +75,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Arc Move.vi" Type="VI" URL="../Arc Move.vi"/>
 		<Item Name="Axis 1" Type="Motion Axis">
 			<Property Name="axis.class:0" Type="Int">10551365</Property>
 			<Property Name="axis.SMVersion" Type="Int">201310</Property>
