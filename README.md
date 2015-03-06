@@ -46,8 +46,8 @@ G1 - Linear Interpolation
 
 G92 - Reset Position
 
+G2/G3 - Arc Moves
 
-G2, G3 Arc moves are not supported in the example right now, but it wouldn't be hard to add.
 This example is intended for someone to modify and combine with the motion driver of their choice.
 For ex: NI SoftMotion, FlexMotion, motion VIs from other vendors, etc.
 
