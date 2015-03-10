@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -75,7 +75,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Arc Move.vi" Type="VI" URL="../Arc Move.vi"/>
 		<Item Name="Axis 1" Type="Motion Axis">
 			<Property Name="axis.class:0" Type="Int">10551365</Property>
 			<Property Name="axis.SMVersion" Type="Int">201310</Property>
@@ -126,9 +125,11 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="nimc.fb.arcMove.blendMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.fb.arcMove.blendMode.ctl"/>
 				<Item Name="nimc.fb.straightLineMove.blendMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.fb.straightLineMove.blendMode.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
+			<Item Name="Calc Arc Angles.vi" Type="VI" URL="../SubVIs/Calc Arc Angles.vi"/>
 			<Item Name="Convert EOLs (String Array)__ogtk.vi" Type="VI" URL="../GCode Parser/From OpenG.lib/Convert EOLs (String Array)__ogtk.vi"/>
 			<Item Name="Convert EOLs (String)__ogtk.vi" Type="VI" URL="../GCode Parser/From OpenG.lib/Convert EOLs (String)__ogtk.vi"/>
 			<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="../GCode Parser/From OpenG.lib/Convert EOLs__ogtk.vi"/>
